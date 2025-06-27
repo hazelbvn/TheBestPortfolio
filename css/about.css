@@ -1,0 +1,71 @@
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: #ECECEC; /* Light Gray for text */
+}
+
+p {
+  font-size: 18px;
+  color: #ECECEC; /* Light Gray for text */
+}
+
+main > div {
+  background-color: #ECECEC; /* Light Gray for container background */
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 20px;
+  text-align: left;
+  color: #2C2C54; /* Dark Indigo for text */
+}
+
+/* Colour the text of links */
+main > div > a {
+  color: #2C2C54; /* Dark Indigo for link text */
+  font-size: 18px;
+}
+
+/* Change the colour of links on hover using mouse */
+main > div > a:hover {
+  background-color: #AAABB8; /* Cool Gray for hover background */
+  color: #ECECEC; /* Light Gray for hover text */
+}
+
+/* Change the color of links on focus using tab button */
+main > div > a:focus {
+  background-color: #AAABB8; /* Cool Gray for focus background */
+  color: #ECECEC; /* Light Gray for focus text */
+  outline: none;
+}
+
+#container2 {
+  grid-area: area2;
+}
+
+#container3 {
+  grid-area: area3;
+}
+
+main {
+  background-color: #2C2C54; /* Dark Indigo for main background */
+  display: grid;
+  grid-template-areas:
+    "."
+    "area2"
+    "area2"
+    "area3"
+    "area3"
+    "area3";
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  main {
+    grid-template-areas:
+      ".     area3 "
+      "area2 area3 "
+      "area2 area3 ";
+  }
+}
