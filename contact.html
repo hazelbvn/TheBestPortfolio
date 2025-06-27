@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contact Connor for Photoshop and design inquiries">
+	<title>The Best Portfolio | Contact</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+	<header>
+		<h1>The Best Portfolio</h1> 
+		<label for="hamburger_checkbox">
+			<img id="hamburger_image" src="images/hamburger-menu.svg" alt="Expand and collapse menu.">
+		</label>
+		<input id="hamburger_checkbox" type="checkbox">
+		<nav>
+			<a href="index.html" aria-label="Home page">Home</a>
+			<a href="photos.html" aria-label="Portfolio page">Photos</a>
+			<a href="about.html" aria-label="About page">About</a>
+			<a class="active_nav" href="contact.html" aria-current="page">Contact</a>
+		</nav>
+	</header>
+	<form id="contact_form" action="mailto:connorbb-8@outlook.com" method="post">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name" required><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message" required></textarea><br><br>
+		<button type="submit">Submit</button><br>
+		<button type="reset">Reset</button>
+	</form>
+	<footer>
+		<p>The Best Portfolio © 2025</p>      
+	</footer>
+</body>
+</html>

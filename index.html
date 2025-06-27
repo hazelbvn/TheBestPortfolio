@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Photoshop and design portfolio by [Your Name]">
+	<title>The Best Portfolio | Home</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<header>
+		<h1>The Best Portfolio</h1> 
+		<label for="hamburger_checkbox">
+			<img id="hamburger_image" src="images/hamburger-menu.svg" alt="Expand and collapse menu.">
+		</label>
+		<input id="hamburger_checkbox" type="checkbox">
+		<nav>
+			<a class="active_nav" href="index.html" aria-current="page">Home</a>
+			<a href="photos.html" aria-label="Portfolio page">Photos</a>
+			<a href="about.html" aria-label="About page">About</a>
+			<a href="contact.html" aria-label="Contact page">Contact</a>
+		</nav>
+	</header>
+	<main>
+		<aside>
+			<a href="https://www.wikihow.com/Knit" aria-label="How to knit for beginners">How to knit for beginners</a>
+			<a href="https://en.wikipedia.org/wiki/Knitting" aria-label="Wikipedia Knitting article">Wikipedia Knitting</a>
+			<a href="https://www.ausyarnco.com.au/free-pattern-downloads" aria-label="Free knitting patterns">Free knitting patterns</a>
+			<a href="https://www.louisetilbrookdesigns.net/everyday-knitter" aria-label="Everyday Knitter Blog">Everyday Knitter Blog</a>
+		</aside>
+		<section>
+			<img id="main_image"
+				srcset="images/480w/background.jpg 480w,
+						images/960w/background.jpg 960w,
+						images/1920w/background.jpg 1920w"
+				sizes="(max-width: 480px) 480px,
+						(max-width: 960px) 960px,
+						(max-width: 1920px) 1920px"
+				src="images/1920w/background.jpg"
+				title="Photoshop Design"
+				alt="Photoshop-edited knitting artwork by [Your Name]">
+			<article>
+				<h2>The Best Portfolio</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. My Photoshop work transforms knitting imagery into unique designs, showcasing techniques like filters, color balance, and textures.</p>
+				<a href="photos.html">View Portfolio</a>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<p>The Best Portfolio © 2025</p>      
+	</footer>
+</body>
+</html>
