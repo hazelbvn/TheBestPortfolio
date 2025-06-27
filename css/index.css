@@ -1,62 +1,56 @@
-/* Mobile First View: */
-
 h2 {
 	display: none;
+	font-family: 'Black Chancery', serif;
   }
   
   aside {
-	background: #ECECEC; /* Light Gray for aside background */
+	background: #ECECEC;
 	font-size: 120%;
 	padding: 5px 0;
 	text-align: center;
 	width: 100%;
   }
   
-  /* Style the links in the aside section */
   aside a {
-	color: #2C2C54; /* Dark Indigo for link text */
+	color: #2C2C54;
 	display: block;
 	padding: 5px 0;
 	text-decoration: none;
 	width: 100%;
   }
   
-  /* Change the color of aside links on hover using mouse */
   aside a:hover {
-	background-color: #AAABB8; /* Cool Gray for hover background */
-	color: #ECECEC; /* Light Gray for hover text */
+	background-color: #AAABB8;
+	color: #ECECEC;
   }
   
-  /* Change the color of aside links on focus using tab key */
   aside a:focus {
-	background-color: #AAABB8; /* Cool Gray for focus background */
-	color: #ECECEC; /* Light Gray for focus text */
+	background-color: #AAABB8;
+	color: #ECECEC;
 	outline: none;
   }
   
   article {
-	background-color: #ECECEC; /* Light Gray for article background */
-	color: #2C2C54; /* Dark Indigo for text */
+	background-color: #ECECEC;
+	color: #2C2C54;
 	font-size: 120%;
 	padding: 0 10px;
   }
   
   article a {
-	color: #2C2C54; /* Dark Indigo for link text */
+	color: #2C2C54;
 	padding: 5px;
 	text-decoration: none;
   }
   
-  /* Change the color of article links on hover using mouse */
   article a:hover {
-	background-color: #AAABB8; /* Cool Gray for hover background */
-	color: #ECECEC; /* Light Gray for hover text */
+	background-color: #AAABB8;
+	color: #ECECEC;
   }
   
-  /* Change the color of article links on focus using tab key */
   article a:focus {
-	background-color: #AAABB8; /* Cool Gray for focus background */
-	color: #ECECEC; /* Light Gray for focus text */
+	background-color: #AAABB8;
+	color: #ECECEC;
 	outline: none;
   }
   
@@ -64,7 +58,6 @@ h2 {
 	width: 100%;
   }
   
-  /* For desktop: */
   @media only screen and (min-width: 768px) {
 	main {
 	  display: flex;

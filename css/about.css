@@ -2,39 +2,37 @@ h2 {
   font-size: 24px;
   font-weight: normal;
   text-align: center;
-  color: #ECECEC; /* Light Gray for text */
+  color: #2C2C54;
+  font-family: 'Black Chancery', serif;
 }
 
 p {
   font-size: 18px;
-  color: #ECECEC; /* Light Gray for text */
+  color: #2C2C54;
 }
 
 main > div {
-  background-color: #ECECEC; /* Light Gray for container background */
+  background-color: #ECECEC;
   border-radius: 10px;
   font-size: 30px;
   padding: 20px;
   text-align: left;
-  color: #2C2C54; /* Dark Indigo for text */
+  color: #2C2C54;
 }
 
-/* Colour the text of links */
 main > div > a {
-  color: #2C2C54; /* Dark Indigo for link text */
+  color: #2C2C54;
   font-size: 18px;
 }
 
-/* Change the colour of links on hover using mouse */
 main > div > a:hover {
-  background-color: #AAABB8; /* Cool Gray for hover background */
-  color: #ECECEC; /* Light Gray for hover text */
+  background-color: #AAABB8;
+  color: #ECECEC;
 }
 
-/* Change the color of links on focus using tab button */
 main > div > a:focus {
-  background-color: #AAABB8; /* Cool Gray for focus background */
-  color: #ECECEC; /* Light Gray for focus text */
+  background-color: #AAABB8;
+  color: #ECECEC;
   outline: none;
 }
 
@@ -47,7 +45,7 @@ main > div > a:focus {
 }
 
 main {
-  background-color: #2C2C54; /* Dark Indigo for main background */
+  background-color: #2C2C54;
   display: grid;
   grid-template-areas:
     "."
@@ -60,7 +58,6 @@ main {
   padding: 20px;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   main {
     grid-template-areas:

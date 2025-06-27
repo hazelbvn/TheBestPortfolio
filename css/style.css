@@ -1,29 +1,29 @@
+@font-face {
+  font-family: 'Black Chancery';
+  src: url('fonts/BlackChancery.ttf') format('truetype');
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background: #2C2C54; /* Dark Indigo for body background */
+  background: #2C2C54;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
-/* Mobile First View: */
-
-/* Style the header which contains the navigation links */
 header {
-  background-color: #2C2C54; /* Dark Indigo for header background */
+  background-color: #2C2C54;
   overflow: hidden;
 }
 
-/* Hide the checkbox which we use for the hamburger menu functionality */
 #hamburger_checkbox {
   display: none;
 }
 
-/* Style the image we use as a label for the hamburger menu checkbox */
 #hamburger_image {
-  background-color: #ECECEC; /* Light Gray for hamburger background */
+  background-color: #ECECEC;
   display: block;
   margin-bottom: 20px;
   margin-left: auto;
@@ -32,22 +32,20 @@ header {
   width: 10%;
 }
 
-/* Show or hide the navigation links depending on whether the hamburger menu checkbox is checked or not */
 input[id="hamburger_checkbox"]:not(:checked) + nav {
   display: none;
 }
 
-/* Style the heading */
 h1 {
-  color: #ECECEC; /* Light Gray for heading text */
+  color: #ECECEC;
   float: left;
   padding: 0 20px;
   width: 100%;
+  font-family: 'Black Chancery', serif;
 }
 
-/* Style the links inside the navigation bar */
 nav a {
-  color: #ECECEC; /* Light Gray for nav link text */
+  color: #ECECEC;
   float: left;
   font-size: 17px;
   padding: 30px 20px;
@@ -56,57 +54,49 @@ nav a {
   width: 100%;
 }
 
-/* Change the color of links on hover using mouse */
 nav a:hover {
-  background-color: #AAABB8; /* Cool Gray for hover background */
-  color: #2C2C54; /* Dark Indigo for hover text */
+  background-color: #AAABB8;
+  color: #2C2C54;
 }
 
-/* Change the color of links on focus using tab key */
 nav a:focus {
-  background-color: #AAABB8; /* Cool Gray for focus background */
-  color: #2C2C54; /* Dark Indigo for focus text */
+  background-color: #AAABB8;
+  color: #2C2C54;
   outline: none;
 }
 
-/* Change the color of the active/current link */
 .active_nav {
-  background-color: #474787; /* Deep Purple-Gray for active link */
-  color: #ECECEC; /* Light Gray for active link text */
+  background-color: #474787;
+  color: #ECECEC;
 }
 
 footer {
-  background: #2C2C54; /* Dark Indigo for footer background */
-  color: #ECECEC; /* Light Gray for footer text */
+  background: #2C2C54;
+  color: #ECECEC;
   padding: 32px;
   text-align: center;
   width: 100%;
 }
 
-/* For desktop: */
 @media only screen and (min-width: 768px) {
-  /* Hide the hamburger menu image we use as a label for the hamburger menu checkbox */
   #hamburger_image {
     display: none;
   }
 
-  /* Show the navigation links... even if the hamburger menu checkbox is not selected (menu open) */
   input[id="hamburger_checkbox"]:not(:checked) + nav {
     display: block;
   }
 
-  /* Style the Knitters heading */
   h1 {
     text-align: left;
     width: 390px;
+    font-family: 'Black Chancery', serif;
   }
 
-  /* Style the navigation bar */
   nav {
     float: right;
   }
 
-  /* Style the links inside the navigation bar */
   nav a {
     width: auto;
   }
